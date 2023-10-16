@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drinkify</title>
+    <link rel="icon" type="image/svg+xml" href="./public/fav.ico" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <include src="./partials/auth.html"></include>
+    <div class="background-img-top"></div>
+    <!-- =============================P=A=G=E==H=E=A=D=E=R===================== -->
+    <include src="./partials/header.html"></include>
+    <!-- =====================================M=A=I=N============================== -->
+    <main class="main-content">
+      <!-- ===================================H=E=R=O============================ -->
+      <include src="./partials/hero.html"></include>
+      <!-- ===================================S=E=L=E=C=T=E=D=============================== -->
+      <include src="./partials/selected.html"></include>
+      <!-- =============================S=E=A=R=C=H==R=E=S=U=L=T====================== -->
+      <include src="./partials/result.html"></include>
+      <!-- ============================C=A=R=D==S=E=A=R=C=H=E=R===================== -->
+      <include src="./partials/searcher.html"></include>
+      <!-- ================================Modal======================================= -->
+      <include src="./partials/modal.html"></include>
+    </main>
+    <!-- ==================================F=O=O=T=E=R=============================== -->
+    <include src="./partials/footer.html"></include>
+    <!-- ==================S=C=R=I=P=T=S============== -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
